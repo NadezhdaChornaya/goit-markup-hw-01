@@ -1,0 +1,34 @@
+/* #212121 цвет основоного текста*/
+/* #757575 вторичный цвет*/
+/* #2196F3 синий текст*/
+/* #FFFFFF белый текст*/
+/* rgba(0, 0, 0, 0.15); синие кнопки*/
+/* rgba(255, 255, 255, 0.6); footer contacts*/
+
+.body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/*header bloсk*/
+
+.logo {
+  color: #2196f3;
+}
+.logo:hover {
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .contacts-details:hover {
+  color: #2196f3;
+}
+.contacts .contacts-details {
+  color: #757575;
+}
